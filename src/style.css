@@ -257,7 +257,7 @@ h4 {
 
 @media (max-width: 1250px) {
   .container {
-    padding: 0 6rem;
+    padding: -1rem 6rem;
   }
   html {
     font-size: 56.25%;
@@ -349,10 +349,11 @@ h4 {
     max-width: 720px;
   }
   .hero-image img {
-    width: 80%;
+    width: 100%;
   }
   .hero-image .hero-img-overlay {
     width: 90%;
     left: 0;
+    bottom: -6.5rem;
   }
 }
